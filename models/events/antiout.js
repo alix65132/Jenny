@@ -1,8 +1,8 @@
 module.exports.config = {
- name: "antiout",
+ name: "uzairrajput",
  eventType: ["log:unsubscribe"],
  version: "0.0.1",
- credits: "𝙋𝙧𝙞𝙮𝙖𝙣𝙨𝙝 𝙍𝙖𝙟𝙥𝙪𝙩",
+ credits: "uzairrajput",
  description: "Listen events"
 };
 
@@ -11,12 +11,12 @@ module.exports.run = async({ event, api, Threads, Users }) => {
  if (data.antiout == false) return;
  if (event.logMessageData.leftParticipantFbId == api.getCurrentUserID()) return;
  const name = global.data.userName.get(event.logMessageData.leftParticipantFbId) || await Users.getNameUser(event.logMessageData.leftParticipantFbId);
- const type = (event.author == event.logMessageData.leftParticipantFbId) ? "self-separation" : "Koi Ase Pichware Mai Lath Marta Hai?";
+ const type = (event.author == event.logMessageData.leftParticipantFbId) ? "self-separation" : "Koi Aise Pichware Mai Lath Marta Hai?";
  if (type == "self-separation") {
   api.addUserToGroup(event.logMessageData.leftParticipantFbId, event.threadID, (error, info) => {
    if (error) {
-    api.sendMessage(`Isse Dubara Add Nhi Kar Paya 🥺 ${name} Group Mai :( `, event.threadID)
-   } else api.sendMessage(`Bhag Ke Jaane Ka Nhi, ${name} Baby, Dekho Phir Se Add Kardiya Aapko`, event.threadID);
+    api.sendMessage(`𝐒𝐨𝐫𝐫𝐲 𝑴𝑻𝑿 🙏 ${name} Me Isko Phir C 𝐀𝐝𝐝 Nahi Kar Sakta 𝐆𝐫𝐨𝐮𝐩 Me 🥺 Q K Isne Mujhe 𝐁𝐥𝐨𝐜𝐤 Kia Hua Hai😕`, event.threadID)
+   } else api.sendMessage(`Bhagne Ke Liye Nahi Bola۔ ${name} Bacha 😛 ,🥀𝑴𝒓𝑼𝒛𝒂𝒊𝒓-𝑴𝑻𝑿🌴 Ke 𝐏𝐞𝐫𝐦𝐢𝐬𝐬𝐢𝐨𝐧  Bagair Tum Kahin Nahi Ja Sakte -😄 Dekho Maine Tumhe Phir C Add Kar Diya Hai 😄-😌 Baby meRe Hote Hue Tum Bagh Nahi Sakte 😂🤣`, event.threadID);
   })
  }
 }
