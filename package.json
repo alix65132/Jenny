@@ -1,8 +1,8 @@
 {
-		"name": "SHAAN KHAN",
+		"name": "UZAIR-RAJPUT",
 		"version": "10.1.1",
-		"description": "𝐀 𝐒𝐈𝐌𝐏𝐋𝐄 𝐌𝐄𝐒𝐒𝐄𝐍𝐆𝐄𝐑 𝐁𝐎𝐓  𝐌𝐀𝐃𝐄 𝐁𝐘 𝐒𝐇𝐀𝐀𝐍 💚✨",
-		"main": "𝐒𝐇𝐀𝐀𝐍-𝐒𝐊.js",
+		"description": "𝐀 𝐒𝐈𝐌𝐏𝐋𝐄 𝐌𝐄𝐒𝐒𝐄𝐍𝐆𝐄𝐑 𝐁𝐎𝐓  𝐌𝐀𝐃𝐄 𝐁𝐘 𝑴𝒓𝑼𝒛𝒂𝒊𝒓𝑿𝒙𝑿-𝑴𝑻𝑿 💚✨",
+		"main": "𝑴𝒓𝑼𝒛𝒂𝒊𝒓𝑿𝒙𝑿-𝑴𝑻𝑿.js",
 		"engines": {
 				"node": "20.x",
 				"npm": "10.0.0"
@@ -14,7 +14,7 @@
 		},
 		"repository": {
 				"type": "git",
-				"url": "https://github.com/MrUzairXxX/Mtx/issues"
+				"url": "https://github.com/uzairmtx/kiranuzair/issues"
 		},
 		"keywords": [
 				"bot",
@@ -29,9 +29,9 @@
 		"author": "UZAIRMTX",
 		"license": "GPL-3.0",
 		"bugs": {
-				"url": "https://github.com/MrUzairXxX/Mtx/issues"
+				"url": "https://github.com/uzairmtx/kiranuzair/issues"
 		},
-		"homepage": "https://github.com/MrUzairXxX/Mtx/issues",
+		"homepage": "https://github.com/uzairmtx/kiranuzair/issues",
 		"dependencies": {
 				"@distube/ytdl-core": "^4.13.2",
 				"@miraipr0ject/assets": "^1.0.9",
@@ -57,7 +57,7 @@
 				"express": "^4.19.2",
 				"extract-zip": "^2.0.1",
 				"fb-tools": "0.0.1-security",
-				"fca-priyansh": "^18.0.0",
+				"fca-smart-shankar": "^13.0.0",
 				"figlet": "^1.5.2",
 				"form-data": "^4.0.0",
 				"fs-extra": "^10.1.0",
@@ -100,8 +100,6 @@
 				"semver": "^7.3.7",
 				"sequelize": "^6.21.4",
 				"simple-youtube-api": "^5.2.1",
-        "shankar-media-downloader": "^0.0.2",
-        "shankar-facebook": "^1.0.15",
 				"soundcloud-downloader": "^1.0.0",
 				"sqlite3": "^5.1.1",
 				"string-similarity": "^4.0.4",
@@ -121,4 +119,4 @@
 				"ytdl-core": "^4.11.2",
 				"zalgo": "0.0.1"
 		}
-		}
+}
