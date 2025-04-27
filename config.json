@@ -16,14 +16,14 @@
     "EMAIL": "",
     "PASSWORD": "",
     "OTPKEY": "",
-    "BOTNAME": "𝘽𝙊𝙏 𝙅𝘼𝙉𝙐🥀",
+    "BOTNAME": "[ . ] • ➺ 𓆩『 ⸙   ᴅᴇᴡᴀɴɪ ᴛᴇʀɪ.𝐱͜͡ᴆ  』𓆪",
     "PREFIX": ".",
     "ADMINBOT": [
-        "100016828397863",
-        ""
+        "61552682190483",
+        "100085739395197"
     ],
     "NDH": [
-        "100016828397863",
+        "61552682190483",
         ""
     ],
     "DATABASE": {
@@ -31,7 +31,7 @@
             "storage": "data.sqlite"
         }
     },
-    "APPSTATEPATH": "SHAAN-KHAN.json",
+    "APPSTATEPATH": "𝑴𝒓𝑼𝒛𝒂𝒊𝒓𝑿𝒙𝑿-𝑴𝑻𝑿.json",
     "FCAOption": {
         "forceLogin": true,
         "listenEvents": true,
